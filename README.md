@@ -18,6 +18,9 @@ Providing local network area. Both Lamp and client machine(such as samrt phone) 
 ### Web Server for service webapp
 Provoding Webapp(HTML,CSS) to client machine.
 
+## Wiring 
+[wiring tutorial](https://learn.adafruit.com/12mm-led-pixels/wiring)
+
 ## Lamp API
 - /api/turn_on_light 
 - /api/turn_off_light		
