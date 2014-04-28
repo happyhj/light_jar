@@ -20,6 +20,7 @@ Provoding Webapp(HTML,CSS) to client machine.
 
 ## Wiring 
 [wiring tutorial](https://learn.adafruit.com/12mm-led-pixels/wiring)
+[![wiring](https://learn.adafruit.com/system/assets/assets/000/001/074/medium800/led_pixels_arduino-wiring.png)]()
 
 ## Lamp API
 - /api/turn_on_light 
