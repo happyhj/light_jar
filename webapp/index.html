@@ -1,0 +1,36 @@
+<html>
+<head>
+<meta charset="utf-8">
+<script src="./js/jquery.min.js"></script>
+</head>
+<body>
+<input type="button" id="turn_on" class="ctrl_btn" value="TURN ON" data-api="/api/turn_on_light">
+<input type="button" id="turn_off" class="ctrl_btn" value="TURN OFF" data-api="/api/turn_on_light">
+<input type="button" id="blink" class="ctrl_btn" value="BLINK" data-api="/api/turn_on_light">
+<input type="button" id="rand_color_chg" class="ctrl_btn" value="CHANGE TO RANDOM COLOR" data-api="/api/change_to_random_color">
+<hr>
+<h3>SHOW</h3>
+<input type="button" id="breathe" class="ctrl_btn" value="BREATHE" data-api="/api/turn_on_breathe">
+<input type="button" id="turn_off_show" class="ctrl_btn" value="TURN OFF SHOW" data-api="/api/turn_off_show">
+<div class="lightjar-container">
+</div>
+<script>
+$(document).ready(function() {
+$(document).on('click', $(".ctrl_btn"), function(e){
+	var url = "http://172.20.10.8"+e.target.getAttribute("data-api");
+	console.log(url);
+	
+	$.ajax({
+		type : "GET",
+		url : url
+	}).done(function(data) {
+		console.log(data);
+	}).fail(function() {
+    	console.log("error");
+	});
+	
+});
+});
+</script>
+</body>
+</html>
