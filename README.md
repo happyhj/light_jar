@@ -5,7 +5,7 @@ Light Jar is arduino powered mood lamp.
 
 ## Demo 
 
-[![ScreenShot](https://raw.github.com/GabLeRoux/WebMole/master/ressources/WebMole_Youtube_Video.png)](http://www.youtube.com/watch?v=lULeXELl_bw&list=LLJAZMv_EH_lL9oyhOQU4YUA&feature=share)
+[![ScreenShot](https://raw.githubusercontent.com/happyhj/light_jar/master/resources/light_jar_youtube_video.png)](http://www.youtube.com/watch?v=lULeXELl_bw&list=LLJAZMv_EH_lL9oyhOQU4YUA&feature=share)
 
 ## Feature
 - WiFi connectivity
