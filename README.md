@@ -16,15 +16,15 @@ Providing local network area. Both Lamp and client machine(such as samrt phone) 
 Provoding Webapp(HTML,CSS) to client machine.
 
 ## Lamp API
-- /api/turn_on_light
+- /api/turn_on_light 
 조명 켜기
 - /api/turn_off_light		
 조명 끄기
 - /api/blink_light		
 한번 깜박
-- /api/blink_light/3		
+- /api/blink_light/3 		
 기존 색으로 N번 깜박
-- /api/blink_light/3/change_color/100/100/100	
+- /api/blink_light/3/change_color/100/100/100	 
 설정한 색으로 N번 깜박
 - /api/dim_light/100		
 밝기를 주어진 값으로 조절
