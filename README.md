@@ -3,6 +3,8 @@ light_jar
 ## What is Light Jar?
 Light Jar is arduino powered mood lamp.
 
+## Demo 
+
 ## Feature
 - WiFi connectivity
 - Controlled by webpage
